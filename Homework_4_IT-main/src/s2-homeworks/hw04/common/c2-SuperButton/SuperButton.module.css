@@ -1,0 +1,95 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.disabled {
+    background-color: #D9D9D9;
+    color: #9E9E9E;
+    cursor: not-allowed;
+    border: 1px solid #0066CC;
+    width: 133px;
+    height: 30px;
+    top: 369px;
+    left: 574px;
+    padding: 5px 24px;
+    gap: 10px;
+    opacity: 0.5;
+    border-radius: 3px;
+}
+
+.secondary {
+    background-color: #E5F0FA;
+   border: 1px solid #0066CC;
+    color: #0066CC;
+    border-radius: 3px;
+    padding: 5px 24px;
+    width: 167px;
+    height: 30px;
+    top: 418px;
+    left: 574px;
+    gap: 10px;
+}
+
+.default {
+    background-color: #0066CC;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #0066CC;
+    width: 167px;
+    height: 30px;
+    top: 261px;
+    left: 574px;
+    padding: 5px 24px;
+}
+
+.red {
+    background-color: #CC1439;
+    color: white;
+    border-radius: 3px;
+    width: 129px;
+    height: 30px;
+    top: 315px;
+    left: 576px;
+    padding: 5px 24px;
+    gap: 10px;
+}
+
+.default:hover {
+    background-color: #0080FF;
+}
+
+.red:hover {
+    background-color: #FF1A47;
+}
+
+.secondary:hover {
+    background-color: #E5F0FA;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+
+
+.default:active {
+    background-color: #0059B2;
+}
+
+.secondary:active {
+    background-color: #C9E5FF;
+    border-color: #0066CC;
+    color: #0066CC;
+}
+
+.red:active {
+    background-color: #B21232;
+}
+
+.button:disabled {
+    background-color: #004D99;
+    color: #9E9E9E;
+    cursor: not-allowed;
+}

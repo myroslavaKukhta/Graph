@@ -1,0 +1,45 @@
+/* Контейнер для спана і іконки редагування */
+.spanBlock {
+    display: flex;
+    align-items: center;
+}
+
+/* Стилизованный спан, который отображает текст */
+.span {
+    display: inline-block;
+    cursor: pointer;
+    color: #007bff; /* Синий цвет текста */
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.span:hover {
+    color: #0056b3; /* Цвет текста при наведении */
+}
+
+/* Стилизованный инпут */
+.input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #007bff;
+}
+
+/* Иконка редактирования */
+.pen {
+    margin-right: 5px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease;
+}
+
+.pen:hover {
+    transform: scale(1.1);
+}
